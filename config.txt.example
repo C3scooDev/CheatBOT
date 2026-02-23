@@ -1,0 +1,17 @@
+# CheatBot - Configurazione
+# Rinomina questo file in config.txt e compila i valori.
+# Tieni config.txt nella stessa cartella dell'exe.
+
+# Chiave API Gemini (Google AI Studio): https://aistudio.google.com/apikey
+GEMINI_API_KEY=
+
+# Telegram: crea un bot con @BotFather e incolla il token qui.
+# Per ottenere il Chat ID: avvia il bot, invia un messaggio al bot, poi apri:
+#   https://api.telegram.org/bot<TUO_TOKEN>/getUpdates
+# e cerca "chat":{"id": ...}
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
+
+# Hotkey (opzionale). Es: f12, ctrl+shift+a
+# Se lasci vuoto, avvia l'app e usa il menu della tray: "Registra tasto".
+HOTKEY=
